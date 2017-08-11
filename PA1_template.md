@@ -19,7 +19,7 @@ plot the frequency of the number of steps
     hist(agg$x, breaks = 10, main= "histogram of the total number of steps taken each day", 
                              xlab = "number of steps")
 
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-2-1.png)
+![img1](instructions_fig/img1.png) 
 
 Then i calculate the mean and the median values of those sums
 
@@ -43,7 +43,7 @@ months And we plot this.
                  main = "average number of steps taken for each interval",
                  ylab = "number of steps"))
 
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-4-1.png)
+![img2](instructions_fig/img2.png) 
 
 The interval with the highest mean number of steps
 
@@ -78,7 +78,7 @@ We can now plot the new frequency for each number of steps per day
     hist(agg_3$x, breaks = 10, main = "histogram of the total number of steps taken each day",
                                xlab = "numbers of steps")
 
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-8-1.png)
+![img3](instructions_fig/img3.png) 
 
 The new calculation of the mean give us:
 
@@ -121,4 +121,4 @@ number of steps for each interval.
                  main = "week-end mean number of steps per interval",
                  ylab = "number of steps"))
 
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-11-1.png)
+![img4](instructions_fig/img4.png) 
